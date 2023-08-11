@@ -33,10 +33,10 @@ btn.addEventListener("click", () => {
     
     if (ovr.checked) {
         if (drop.value == "Z") {
-            res.innerHTML = "Z1: " + divide(zx1.value, 8) + "<br /><br />Z2: " + divide(zx1.value, 8) + "<br /><br />X: " + divide(xz.value, 8);
+            res.innerHTML = "Z1: " + math.floor(divide(zx1.value, 8)) + "<br /><br />Z2: " + math.ceiling(divide(zx1.value, 8)) + "<br /><br />X: " + divide(xz.value, 8);
         }
         else {
-            res.innerHTML = "X1: " + divide(zx1.value, 8) + "<br /><br />X2: " + divide(zx1.value, 8) + "<br /><br />Z: " + divide(xz.value, 8);
+            res.innerHTML = "X1: " + math.floor(divide(zx1.value, 8)) + "<br /><br />X2: " + math.ceiling(divide(zx1.value, 8)) + "<br /><br />Z: " + divide(xz.value, 8);
         }
     }
     else {
