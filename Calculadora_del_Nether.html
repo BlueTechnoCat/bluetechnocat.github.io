@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculadora del Nether</title>
+</head>
+<body>
+    <header class="title">Calculadora del Nether</header>
+
+    <label for="State" id="ov"><input type="radio" name="State" id="ovr" checked>Overworld</label>
+    <label for="State" id="ne"><input type="radio" name="State" id="ner">Nether</label>
+    
+    <label for="Orin" id="orinl">Orientacion
+    <select name="Orin" id="orin">
+        <option value="Z">Z</option>
+        <option value="X">X</option>
+    </select></label>
+
+    <input type="text" name="ZX1" id="ZX1" placeholder="Z1">
+    <input type="text" name="ZX2" id="ZX2" placeholder="Z2">
+    <input type="text" name="XZ"  id="XZ" placeholder="X">
+
+    <input type="button" value="Calculate" class="calcBtn" id="calcBtn">
+
+    <div id="result"></div>
+
+</body>
+</html>
+<script src="calc.js"></script>
