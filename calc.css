@@ -5,10 +5,10 @@
 }
 
 body {
-	padding: 12.5px;
+	padding: 20px;
 	position: absolute;
-	top: 15%;
-	left: 35%;
+	top: 5%;
+	left: 25%;
 	background: #343434;
 	border: 5px solid #f0f0f0;
 }
