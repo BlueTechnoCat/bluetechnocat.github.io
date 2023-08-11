@@ -5,7 +5,9 @@
 }
 
 body {
-	padding: 15px;
+	padding: 12.5px;
+	top: 15%;
+	left: 35%;
 	position: absolute;	
 	background: #343434;
 	border: 5px solid #f0f0f0;
